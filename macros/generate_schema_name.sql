@@ -10,9 +10,19 @@
 
         {{ custom_schema_name | trim }}
 
+    {%- elif target.name == 'prd' -%}
+
+        {{ custom_schema_name | trim }}
+
     {%- elif target.name == 'dev_pr' -%}
 
-        {{ default_schema }}_pr
+        dbt_cloud_pr_{{ default_schema }}
+
+    {%- elif target.name == 'qa_pr' -%}
+
+        dbt_cloud_pr_{{ default_schema }}
+
+
 
     {%- else -%}
 
