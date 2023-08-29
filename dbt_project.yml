@@ -37,7 +37,7 @@ models:
     master:
       +schema: master
       materialized: view
-    stage:
+    staging:
       +schema: stage
       materialized: view
     curated:

@@ -1,3 +1,7 @@
+{{
+    config (tag = 'staged_layer')
+}}
+
 with 
 
 source as (
