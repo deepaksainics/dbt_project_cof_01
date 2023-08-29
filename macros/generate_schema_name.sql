@@ -12,11 +12,11 @@
 
     {%- elif target.name == 'dev_pr' -%}
 
-        {{ default_schema }}||'_pr'
+        {{ default_schema }}_pr
 
     {%- else -%}
 
-        {{ custom_schema_name | trim }}
+        {{ default_schema }}
 
     {%- endif -%}
 
