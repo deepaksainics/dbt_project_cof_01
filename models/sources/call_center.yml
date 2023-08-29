@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: call_center_raw
+  - name: call_center
     description: Raw database for call center
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCDS_SF100TCL

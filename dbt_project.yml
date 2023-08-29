@@ -34,15 +34,15 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_project_coforge_01:
     # Applies to all files under models/example/
-    example:
-      +schema: DBT_DEEPAKSAINICS
+    master:
+      +schema: master
       materialized: view
     stage:
-      +schema: DBT_DEEPAKSAINICS
+      +schema: stage
       materialized: view
     curated:
-      +schema: DBT_DEEPAKSAINICS
+      +schema: curated
       materialized: table
     mart:
-      +schema: DBT_DEEPAKSAINICS
+      +schema: mart
       +materialized: table

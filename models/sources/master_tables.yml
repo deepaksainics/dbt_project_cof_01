@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: master_tables
+    description: Raw database for call center
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF100TCL
+    tables:
+      - name: DATE_DIM
+        description: This is date dimesion common to all data sources
+      - name: TIME_DIM
+        description: This is time dimesion common to all data sources

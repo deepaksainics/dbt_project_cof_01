@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: customer_raw
+    description: Raw database for customer data
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: CUSTOMER
+        description: 'This is Customer raw table'
+      - name: CUSTOMER_ADDRESS
+      - name: CUSTOMER_DEMOGRAPHICS
+      - name: HOUSEHOLD_DEMOGRAPHICS
+      - name: INCOME_BAND
