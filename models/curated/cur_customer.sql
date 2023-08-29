@@ -2,7 +2,7 @@
     config 
     (materialized='table',
     transient = true,
-    tag = 'staged_layer')
+    tag = 'curated_layer')
 }}
 
 WITH customer_raw AS 
