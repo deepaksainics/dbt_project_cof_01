@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: metric_raw
+    description: Raw source for metric data
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: STORE_RETURNS
+        description: 'This table contains store returns data'
+      - name: STORE_SALES
+      - name: CATALOG_RETURNS
+      - name: CATALOG_SALES
+      - name: WEB_RETURNS
+      - name: WEB_SALES

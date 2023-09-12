@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: store_item_raw
+    description: Raw database for store item data
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: ITEM
+        description: 'This is item raw table'
+      - name: STORE
+        description: 'This is store raw table'
+      - name: WAREHOUSE
+        description: 'This is warehouse raw table'
