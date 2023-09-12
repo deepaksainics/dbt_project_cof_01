@@ -12,3 +12,5 @@ sources:
       - name: CUSTOMER_DEMOGRAPHICS
       - name: HOUSEHOLD_DEMOGRAPHICS
       - name: INCOME_BAND
+      - name: INVENTORY
+
